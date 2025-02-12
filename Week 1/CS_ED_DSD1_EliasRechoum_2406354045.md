@@ -63,6 +63,8 @@ Pada tugas pendahuluan, anda telah membuat rangkaian sederhana untuk menyalakan 
    Screenshot Rangkaian:
    ![Screenshot Rangkaian](IC7408.png)
 
+   [Link Rangkaian]("https://www.tinkercad.com/things/ai69f8TxL0T-modul-1-")
+
 2. Perhatikan penggunaan LED pada rangkaian anda, jelaskan apa yang terjadi ketika posisi Anode dan Katode dari LED di balikkan! (dapat anda demonstrasikan dengan mencantumkan SS rangkaian) (10 poin)
    
    #### Jawaban:
