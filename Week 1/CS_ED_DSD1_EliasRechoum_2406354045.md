@@ -48,10 +48,10 @@ Pada tugas pendahuluan, anda telah membuat rangkaian sederhana untuk menyalakan 
 
     | Inputs  | Output Datasheet | Output Sebenarnya | Screenshot Output |
     | ------- | ---------------- | ----------------- | ----------------- |
-    | LL (00) | L                | L               | ![LL](00.png)       |
-    | LH (01) | L                | L               | ![LH](01.png)       |
-    | HL (10) | L                | L               | ![HL](10.png)       |
-    | HH (11) | H                | H               | ![HH](11.png)       |
+    | LL (00) | L                | L               | ![LL](https://github.com/c0ldlasagna/DSD/blob/master/Week%201/00.png?raw=true)       |
+    | LH (01) | L                | L               | ![LH](https://github.com/c0ldlasagna/DSD/blob/master/Week%201/01.png?raw=true)       |
+    | HL (10) | L                | L               | ![HL](https://github.com/c0ldlasagna/DSD/blob/master/Week%201/10.png?raw=true)       |
+    | HH (11) | H                | H               | ![HH](https://github.com/c0ldlasagna/DSD/blob/master/Week%201/11.png?raw=true)       |
 
 ### Analisis
 
@@ -61,7 +61,7 @@ Pada tugas pendahuluan, anda telah membuat rangkaian sederhana untuk menyalakan 
    Rangkaian IC7408 ini menggunakan teori Logic Gate AND untuk menyalakan sebuah LED. LED hanya akan nyala jika kedua input adalah High, dan tidak akan menyal
 
    Screenshot Rangkaian:
-   ![Screenshot Rangkaian](IC7408.png)
+   ![Screenshot Rangkaian](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%201/IC7408.png)
 
    [Link Rangkaian]("https://www.tinkercad.com/things/ai69f8TxL0T-modul-1-")
 
