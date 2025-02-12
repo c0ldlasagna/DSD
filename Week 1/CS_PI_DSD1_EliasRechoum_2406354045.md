@@ -13,15 +13,18 @@ Pada tugas pendahuluan, anda telah membuat rangkaian sederhana untuk menyalakan 
 1. Buatlah rangkaian baru pada Tinkercad, tambahkan breadboard, baterai 9V, LED, dan IC 7408 pada breadboard. Tidak perlu dihubungkan terlebih dahulu.
 2. Bukalah datasheet dari IC 7408. Anda dapat menggunakan datasheet pada link berikut : https://www.farnell.com/datasheets/59359.pdf
 3. Dari bagian General Description, sebutkan apa kegunaan dari IC 7408! (5 poin)
-   #### Jawaban singkat: 
-   
+
+   #### Jawaban singkat
+
    IC7408 memiliki 4 logic gate AND yang independen.
+
 4. Hubungkan baterai 9v pada bagian power strip dari breadboard.
 5. Dari bagian Connection Diagram, jelaskan lokasi pin VCC dan GND, apa yang seharusnya dihubungkan pada VCC dan GND? (5 poin)
 
-   #### Jawaban singkat: 
+   #### Jawaban singkat
 
    Pin VCC terletak di baris atas paling kiri, dan harus terhubung ke terminal positif sumber daya. Pin GND terletak di baris bawah paling kanan, dan harus terhubung ke terminal negatif sumber daya.
+
 6. Hubungkan VCC dan GND dari power strip breadboard sesuai dengan jawaban anda sebelumnya.
 7. Letakkan IC pada bagian tengah breadboard.
 
@@ -32,11 +35,17 @@ Pada tugas pendahuluan, anda telah membuat rangkaian sederhana untuk menyalakan 
 11. Hubungkan output dari AND gate yaitu pin Y1 (Output 1 pada Tinkercad) pada bagian Anode dari LED.
 12. Pada datasheet, perhatikan bagian function table, dalam hal ini H berarti High Logic Level (dihubungkan dengan VCC) dan L berarti Low Logic Level (Dihubungkan dengan GND), berdasarkan tabel tersebut, apa output seharusnya jika pada input IC dihubungkan High dengan High? (5 poin)
 
-    Jawaban singkat:Seharusnya output IC jika inputnya High dan High adalah High.
+    #### Jawaban singkat
+    
+    Seharusnya output IC jika inputnya High dan High adalah High.
+
 13. Run Simulation Tinkercad dan perhatikan LED, bila LED menyala maka ia dalam kondisi High, sedangkan bila ia padam, maka ia dalam kondisi Low. Pastikan output sudah sesuai dengan function table sebelum lanjut ke nomor selanjutnya.
 14. Namun, perhatikan bahwa IC akan meledak atau terbakar ketika simulasi dijalankan. Buka halaman kedua dari datasheet anda, lalu perhatikan tabel **Recommended Operating Conditions**. Berdasarkan tabel tersebut, berapakah tegangan operasional yang disarankan untuk VCC? (5 poin)
 
-    Jawaban singkat: 5 Volt
+    #### Jawaban singkat 
+    
+    5 Volt
+
 15. Dapat diamati bahwa baterai yang memiliki tegangan sebesar 9V tidak sesuai untuk IC yang digunakan, maka ubahlah baterai tersebut dengan Power Supply yang digunakan pada Tugas Pendahuluan.
 16. Setelah melakukan perubahan, kembali Run Simulation. Pastikan bahwa kondisi LED dan IC sudah sesuai dan tidak meledak.
 17. Selanjutnya, anda akan melakukan pengujian truth table (function table) IC 7408 berdasarkan datasheet. Untuk memudahkan prosesnya, anda akan menggunakan Dip Switch.
@@ -58,7 +67,7 @@ Pada tugas pendahuluan, anda telah membuat rangkaian sederhana untuk menyalakan 
 1. Berikan analisis berupa paragraf yang menjelaskan kegiatan dan aplikasi teori dan modul anda pada Case Study ini, sertakan screenshot dan link rangkaian Tinkercad anda (30 poin).
 
    #### Jawaban:
-   Rangkaian IC7408 ini menggunakan teori Logic Gate AND untuk menyalakan sebuah LED. LED hanya akan nyala jika kedua input adalah High, dan tidak akan menyal
+   Rangkaian IC7408 ini menggunakan teori Logic Gate AND untuk menyalakan sebuah LED. LED hanya akan nyala jika kedua input adalah High, dan tidak akan menyala jika hanya satu input adalah HIGH atau kedua input LOW.
 
    Screenshot Rangkaian:
    ![Screenshot Rangkaian](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%201/IC7408.png)
