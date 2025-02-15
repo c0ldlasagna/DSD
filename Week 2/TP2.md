@@ -1,8 +1,3 @@
----
-title: Tugas Pendahuluan - Boolean Algebra And Basic Logic Gates
-
----
-
 # Tugas Pendahuluan - Boolean Algebra And Basic Logic Gates
 
 ```txt
