@@ -57,7 +57,7 @@ Mr. Kim meminta Anda untuk membuatkannya sebuah `rangkaian digital` yang mampu m
 
 |  A (`1`)  |  B (`2`)  |  C (`3`) |  D (`4`) | Output | Screenshot Rangkaian|
 |:---------:|:---------:|:--------:|:--------:|:------:|:-------------------:|
-|  0  |  0  |  0  |  0  |   `0`    |![[0000](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/0000.png)|
+|  0  |  0  |  0  |  0  |   `0`    |![0000](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/0000.png)|
 |  0  |  0  |  0  |  1  |   `0`    |![0001](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/0001.png)|
 |  0  |  0  |  1  |  0  |   `0`    |![0010](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/0010.png)|
 |  0  |  0  |  1  |  1  |   `0`    |![0011](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/0011.png)|
