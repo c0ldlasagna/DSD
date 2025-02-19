@@ -22,14 +22,14 @@ Fungsi Boolean :
 
 |  A  |  B  |  C  |  Output  |           Foto Rangkaian              |
 |-----|-----|-----|:--------:|:-------------------------------------:|
-|  0  |  0  |  0  |   `0`    |     ![Output 000](000.jpg)            |
-|  0  |  0  |  1  |   `0`    |     ![Output 001](001.jpg)            |
-|  0  |  1  |  0  |   `0`    |     ![Output 010](010.jpg)            |
-|  0  |  1  |  1  |   `0`    |     ![Output 011](011.jpg)            |
-|  1  |  0  |  0  |   `1`    |     ![Output 100](100.jpg)            |
-|  1  |  0  |  1  |   `1`    |     ![Output 101](101.jpg)            |
-|  1  |  1  |  0  |   `0`    |     ![Output 110](110.jpg)            |
-|  1  |  1  |  1  |   `1`    |     ![Output 111](111.jpg)            |
+|  0  |  0  |  0  |   `0`    |     ![Output 000](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/CS/000.jpg)            |
+|  0  |  0  |  1  |   `0`    |     ![Output 001](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/CS/001.jpg)            |
+|  0  |  1  |  0  |   `0`    |     ![Output 010](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/CS/010.jpg)            |
+|  0  |  1  |  1  |   `0`    |     ![Output 011](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/CS/011.jpg)            |
+|  1  |  0  |  0  |   `1`    |     ![Output 100](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/CS/100.jpg)            |
+|  1  |  0  |  1  |   `1`    |     ![Output 101](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/CS/101.jpg)            |
+|  1  |  1  |  0  |   `0`    |     ![Output 110](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/CS/110.jpg)            |
+|  1  |  1  |  1  |   `1`    |     ![Output 111](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%202/CS/111.jpg)            |
 
 ## 2. Teori - Misalnya, rangkaian ini sudah selesai. Pasti akan ada kombinasi-kombinasi yang menghasilkan sinyal `0`, atau tidak layak menjadi soulmate, bukan? Jika Anda diminta untuk menyalakan lampu untuk setiap kombinasi input yang bernilai `0` (seperti membuat mereka jadi `1`), apa 1 IC yang akan Anda gunakan, dan mengapa? (Harus memakai IC yang sudah ada pada rangkaian dan tidak diperbolehkan menambah IC lain)  (10 poin)
 
