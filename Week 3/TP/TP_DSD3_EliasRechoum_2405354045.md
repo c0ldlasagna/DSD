@@ -1,8 +1,3 @@
----
-title: Pre-Task - Karnaugh Map (Reg)
-
----
-
 # Tugas Pendahuluan - Karnaugh Map
 
 ```txt
