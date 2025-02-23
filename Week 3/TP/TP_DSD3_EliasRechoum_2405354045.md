@@ -89,21 +89,21 @@ Berdasarkan pelajaran yang telah kalian dapat dari Aljabar Boolean, Coba lengkap
 
 |  A  |  B  |  C  |  D  | Output | Foto Rangkaian |
 |:---:|:---:|:---:|:---:|:------:|:---:|
-|  0  |  0  |  0  |  0  |   0    |![0000](0000.png)|
-|  0  |  0  |  0  |  1  |   1    |![0001](0001.png)|
-|  0  |  0  |  1  |  0  |   1    |![0010](0010.png)|
-|  0  |  0  |  1  |  1  |   1    |![0011](0011.png)|
-|  0  |  1  |  0  |  1  |   1    |![0101](0101.png)|
-|  0  |  1  |  1  |  0  |   1    |![0110](0110.png)|
-|  0  |  1  |  1  |  1  |   1    |![0111](0111.png)|
-|  1  |  0  |  0  |  0  |   0    |![1000](1000.png)|
-|  1  |  0  |  0  |  1  |   0    |![1001](1001.png)|
-|  1  |  0  |  1  |  0  |   1    |![1010](1010.png)|
-|  1  |  0  |  1  |  1  |   0    |![1011](1011.png)|
-|  1  |  1  |  0  |  0  |   1    |![1100](1100.png)|
-|  1  |  1  |  0  |  1  |   1    |![1101](1101.png)|
-|  1  |  1  |  1  |  0  |   1    |![1110](1110.png)|
-|  1  |  1  |  1  |  1  |   1    |![1111](1111.png)|
+|  0  |  0  |  0  |  0  |   0    |![0000](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0000.png)|
+|  0  |  0  |  0  |  1  |   1    |![0001](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0001.png)|
+|  0  |  0  |  1  |  0  |   1    |![0010](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0010.png)|
+|  0  |  0  |  1  |  1  |   1    |![0011](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0011.png)|
+|  0  |  1  |  0  |  1  |   1    |![0101](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0101.png)|
+|  0  |  1  |  1  |  0  |   1    |![0110](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0110.png)|
+|  0  |  1  |  1  |  1  |   1    |![0111](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0111.png)|
+|  1  |  0  |  0  |  0  |   0    |![1000](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1000.png)|
+|  1  |  0  |  0  |  1  |   0    |![1001](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1001.png)|
+|  1  |  0  |  1  |  0  |   1    |![1010](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1010.png)|
+|  1  |  0  |  1  |  1  |   0    |![1011](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1011.png)|
+|  1  |  1  |  0  |  0  |   1    |![1100](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1100.png)|
+|  1  |  1  |  0  |  1  |   1    |![1101](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1101.png)|
+|  1  |  1  |  1  |  0  |   1    |![1110](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1110.png)|
+|  1  |  1  |  1  |  1  |   1    |![1111](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1111.png)|
 
 ---
 
@@ -124,7 +124,7 @@ Kemudian Buatlah Solusinya untuk bisa mendapatkan persamaan boolean (fungsi) pal
 
 ### Solusi Karnaugh Map (dengan kotak-kotak pengelompokan)
 
-![KMap](KMap.png)
+![KMap](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/KMap.png)
 
 
 ### Persamaan Boolean
@@ -136,21 +136,21 @@ Kemudian Buatlah Solusinya untuk bisa mendapatkan persamaan boolean (fungsi) pal
 
 |  A  |  B  |  C  |  D  | Output | Foto Rangkaian |
 |:---:|:---:|:---:|:---:|:------:|:---:|
-|  0  |  0  |  0  |  0  |   0    |![0000](0000.png)|
-|  0  |  0  |  0  |  1  |   1    |![0001](0001.png)|
-|  0  |  0  |  1  |  0  |   1    |![0010](0010.png)|
-|  0  |  0  |  1  |  1  |   1    |![0011](0011.png)|
-|  0  |  1  |  0  |  1  |   1    |![0101](0101.png)|
-|  0  |  1  |  1  |  0  |   1    |![0110](0110.png)|
-|  0  |  1  |  1  |  1  |   1    |![0111](0111.png)|
-|  1  |  0  |  0  |  0  |   0    |![1000](1000.png)|
-|  1  |  0  |  0  |  1  |   0    |![1001](1001.png)|
-|  1  |  0  |  1  |  0  |   1    |![1010](1010.png)|
-|  1  |  0  |  1  |  1  |   0    |![1011](1011.png)|
-|  1  |  1  |  0  |  0  |   1    |![1100](1100.png)|
-|  1  |  1  |  0  |  1  |   1    |![1101](1101.png)|
-|  1  |  1  |  1  |  0  |   1    |![1110](1110.png)|
-|  1  |  1  |  1  |  1  |   1    |![1111](1111.png)|
+|  0  |  0  |  0  |  0  |   0    |![0000](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0000.png)|
+|  0  |  0  |  0  |  1  |   1    |![0001](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0001.png)|
+|  0  |  0  |  1  |  0  |   1    |![0010](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0010.png)|
+|  0  |  0  |  1  |  1  |   1    |![0011](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0011.png)|
+|  0  |  1  |  0  |  1  |   1    |![0101](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0101.png)|
+|  0  |  1  |  1  |  0  |   1    |![0110](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0110.png)|
+|  0  |  1  |  1  |  1  |   1    |![0111](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/0111.png)|
+|  1  |  0  |  0  |  0  |   0    |![1000](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1000.png)|
+|  1  |  0  |  0  |  1  |   0    |![1001](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1001.png)|
+|  1  |  0  |  1  |  0  |   1    |![1010](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1010.png)|
+|  1  |  0  |  1  |  1  |   0    |![1011](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1011.png)|
+|  1  |  1  |  0  |  0  |   1    |![1100](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1100.png)|
+|  1  |  1  |  0  |  1  |   1    |![1101](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1101.png)|
+|  1  |  1  |  1  |  0  |   1    |![1110](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1110.png)|
+|  1  |  1  |  1  |  1  |   1    |![1111](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TP/1111.png)|
 
 
 ### Public Tinkercad Link 
