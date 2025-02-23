@@ -46,7 +46,7 @@ Kondisi X atau Don't Care dalam K-Map adalah keadaan di mana suatu output tidak 
 
 Kondisi Don't Care membuat K-Map menjadi lebih mudah, karena memungkinkan pembentukan kelompok yang lebih besar, sehingga ekspresi Boolean yang dihasilkan lebih sederhana dan efisien dalam implementasi rangkaian digital.
 
-### Reference: 
+### Referensi: 
 
 - M Morris Mano and M. D. Ciletti, Digital design : with an introduction to the verilog hdl. Boston: Pearson Education Limited, 2013.
 
