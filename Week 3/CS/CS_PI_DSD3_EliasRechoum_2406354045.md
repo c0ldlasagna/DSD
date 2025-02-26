@@ -58,9 +58,24 @@ Lanjutan dari TP kemarin adalah anda hanya perlu membuat versi fisiknya di prakt
 ### Dengan rumus Boolean ini, buat rangkaian yang sesuai dan foto seluruh kombinasi input yang menyebabkan lampu LED untuk menyala!
 
 
-|  A  |  B  |  C  |  D  | Output |
-|-----|-----|-----|-----|--------|
-|  x  |  x  |  x  |  x  | ![image](https://i.ibb.co.com/kyrSHdw/y9DpT.jpg) |
+|  A  |  B  |  C  |  D  | Output | Foto Rangkaian |
+|:---:|:---:|:---:|:---:|:------:|:--------------:|
+|  0  |  0  |  0  |  0  |   0    |                |
+|  0  |  0  |  0  |  1  |   1    |                |
+|  0  |  0  |  1  |  0  |   1    |                |
+|  0  |  0  |  1  |  1  |   1    |                |
+|  0  |  1  |  0  |  0  |   0    |                |
+|  0  |  1  |  0  |  1  |   1    |                |
+|  0  |  1  |  1  |  0  |   1    |                |
+|  0  |  1  |  1  |  1  |   1    |                |
+|  1  |  0  |  0  |  0  |   0    |                |
+|  1  |  0  |  0  |  1  |   0    |                |
+|  1  |  0  |  1  |  0  |   1    |                |
+|  1  |  0  |  1  |  1  |   0    |                |
+|  1  |  1  |  0  |  0  |   1    |                |
+|  1  |  1  |  0  |  1  |   1    |                |
+|  1  |  1  |  1  |  0  |   1    |                |
+|  1  |  1  |  1  |  1  |   1    |                |
 
 (Ganti dengan foto sirkuit Anda!)
 
