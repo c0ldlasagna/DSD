@@ -23,37 +23,36 @@ Lanjutan dari TP kemarin adalah anda hanya perlu membuat versi fisiknya di prakt
 
 ### Truth Table
 |  A  |  B  |  C  |  D  | Output |
-|-----|-----|-----|-----|--------|
-|  0  |  0  |  0  |  0  |   ?    |
-|  0  |  0  |  0  |  1  |   ?    |
-|  0  |  0  |  1  |  0  |   ?    |
-|  0  |  0  |  1  |  1  |   ?    |
-|  0  |  1  |  0  |  0  |   ?    |
-|  0  |  1  |  0  |  1  |   ?    |
-|  0  |  1  |  1  |  0  |   ?    |
-|  0  |  1  |  1  |  1  |   ?    |
-|  1  |  0  |  0  |  0  |   ?    |
-|  1  |  0  |  0  |  1  |   ?    |
-|  1  |  0  |  1  |  0  |   ?    |
-|  1  |  0  |  1  |  1  |   ?    |
-|  1  |  1  |  0  |  0  |   ?    |
-|  1  |  1  |  0  |  1  |   ?    |
-|  1  |  1  |  1  |  0  |   ?    |
-|  1  |  1  |  1  |  1  |   ?    |
+|:---:|:---:|:---:|:---:|:------:|
+|  0  |  0  |  0  |  0  |   0    |
+|  0  |  0  |  0  |  1  |   1    |
+|  0  |  0  |  1  |  0  |   1    |
+|  0  |  0  |  1  |  1  |   1    |
+|  0  |  1  |  0  |  0  |   0    |
+|  0  |  1  |  0  |  1  |   1    |
+|  0  |  1  |  1  |  0  |   1    |
+|  0  |  1  |  1  |  1  |   1    |
+|  1  |  0  |  0  |  0  |   0    |
+|  1  |  0  |  0  |  1  |   0    |
+|  1  |  0  |  1  |  0  |   1    |
+|  1  |  0  |  1  |  1  |   0    |
+|  1  |  1  |  0  |  0  |   1    |
+|  1  |  1  |  0  |  1  |   1    |
+|  1  |  1  |  1  |  0  |   1    |
+|  1  |  1  |  1  |  1  |   1    |
 
 
 ### Karnaugh Map 
 
-| AB\CD | 00  | 01  | 11  | 10  |
-|-------|-----|-----|-----|-----|
-| **00**|     |     |     |     |
-| **01**|     |     |     |     |
-| **11**|     |     |     |     |
-| **10**|     |     |     |     |
-
+| AB\CD | 00  | 01  | 11    | 10    |
+|:-----:|:---:|:---:|:-----:|:-----:|
+| **00**|  0  |  1  | 1     |  1   |
+| **01**|  0  |  1  | 1     |  1   |
+| **11**|  1  |  1  | 1     |  1   |
+| **10**|  0  |  0  | 0     |  1   |
 
 ### Persamaan Boolean
-`F(A,B,C,D) = _____ `
+`F(A,B,C,D) = AB + A'D + CD'`
 
 
 ### Dengan rumus Boolean ini, buat rangkaian yang sesuai dan foto seluruh kombinasi input yang menyebabkan lampu LED untuk menyala!
@@ -67,6 +66,17 @@ Lanjutan dari TP kemarin adalah anda hanya perlu membuat versi fisiknya di prakt
 
 ## 2. Tuliskan SUM of Minterms dari Truth Table yang dibuat! Apakah Anda sanggup untuk menyederhanakan dari hasil tersebut tanpa KMAP? (10 poin)
 
+Sum of Minterms dari Truth table adalah: 
+
+```txt
+∑(1,2,3,5,6,7,10,12,13,14,15)
+```
+
+Saya tidak sanggup menyederhanakan tanpa KMAP.
+
 ## 3. Dibanding metode aljabar boolean lainnya (seperti menyederhanakan maxterms dan minterms), metode mana yang menurut Anda lebih efisien? (10 poin)
 
+Menurut saya, KMAP lebih efisien dari metode aljabar boolean lainnya.
+
 ## 4. Buatlah kesimpulan dari percobaan kali ini! (Buat dalam bentuk poin-poin!) (10 poin)
+
