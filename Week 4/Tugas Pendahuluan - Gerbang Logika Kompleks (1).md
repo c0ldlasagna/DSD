@@ -118,6 +118,6 @@ Sertakan **SCREENSHOT** dan **LINK** ke simulasi Tinkercad. Pastikan link terseb
 ---
 
 **Screenshot:**  
-![alt text](image-1.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%204/image-1.png)
 
 **Link:** [Link Tinkercad](https://www.tinkercad.com/things/doI6XOzW5zn-elias-2406354045)  
