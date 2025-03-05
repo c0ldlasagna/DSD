@@ -76,22 +76,22 @@ Hint: Sederhanakan mengenai Boolean Algebra, lalu konversi kebentuk XOR dan XNOR
 
 |  A  |  B  |  C  |  D  | Output | Foto Rangkaian |
 | :-: | :-: | :-: | :-: | :----: | :------------: |
-|  0  |  0  |  0  |  0  |   0    |                |
-|  0  |  0  |  0  |  1  |   1    |                |
-|  0  |  0  |  1  |  0  |   0    |                |
-|  0  |  0  |  1  |  1  |   0    |                |
-|  0  |  1  |  0  |  0  |   0    |                |
-|  0  |  1  |  0  |  1  |   0    |                |
-|  0  |  1  |  1  |  0  |   0    |                |
-|  0  |  1  |  1  |  1  |   1    |                |
-|  1  |  0  |  0  |  0  |   1    |                |
-|  1  |  0  |  0  |  1  |   0    |                |
-|  1  |  0  |  1  |  0  |   0    |                |
-|  1  |  0  |  1  |  1  |   0    |                |
-|  1  |  1  |  0  |  0  |   0    |                |
-|  1  |  1  |  0  |  1  |   0    |                |
-|  1  |  1  |  1  |  0  |   1    |                |
-|  1  |  1  |  1  |  1  |   0    |                |
+|  0  |  0  |  0  |  0  |   0    |          ![WhatsApp Image 2025-03-05 at 10 55 24_e0b599e5](https://github.com/user-attachments/assets/592f959e-8d18-4f50-a686-3f133866f862)      |
+|  0  |  0  |  0  |  1  |   1    |     ![WhatsApp Image 2025-03-05 at 10 55 35_f5a0b894](https://github.com/user-attachments/assets/82a64ad2-1186-4fff-b5c7-7c3b5bf7e3c2)           |
+|  0  |  0  |  1  |  0  |   0    |      ![WhatsApp Image 2025-03-05 at 10 55 51_044a51a4](https://github.com/user-attachments/assets/441508c3-5554-4cec-92f0-bb04696dfff3)          |
+|  0  |  0  |  1  |  1  |   0    |    ![WhatsApp Image 2025-03-05 at 10 56 10_718f8b63](https://github.com/user-attachments/assets/7e11c736-1854-4d3c-bd08-ab240a01b2ab)            |
+|  0  |  1  |  0  |  0  |   0    |   ![WhatsApp Image 2025-03-05 at 10 56 43_95bea503](https://github.com/user-attachments/assets/1cc41726-ff5b-4fbc-a261-6b763c196f0e)             |
+|  0  |  1  |  0  |  1  |   0    |     ![WhatsApp Image 2025-03-05 at 10 57 00_c74ef3ec](https://github.com/user-attachments/assets/d005ba08-a2e1-421e-ac44-bdc8ac123d61)           |
+|  0  |  1  |  1  |  0  |   0    |  ![WhatsApp Image 2025-03-05 at 10 57 17_9eb4371c](https://github.com/user-attachments/assets/e2c5d665-9026-42de-b46e-995439fb01e7)              |
+|  0  |  1  |  1  |  1  |   1    |   ![WhatsApp Image 2025-03-05 at 10 57 26_010a07dc](https://github.com/user-attachments/assets/6856c562-f766-4696-9aab-42009fdb5c41)             |
+|  1  |  0  |  0  |  0  |   1    |     ![WhatsApp Image 2025-03-05 at 10 57 48_12cefc03](https://github.com/user-attachments/assets/09c634df-bf42-4c19-91e0-192138690f53)           |
+|  1  |  0  |  0  |  1  |   0    |     ![WhatsApp Image 2025-03-05 at 10 58 04_cd3d1e58](https://github.com/user-attachments/assets/7bed4e16-7089-4b9c-894d-fde972956d5c)           |
+|  1  |  0  |  1  |  0  |   0    |       ![WhatsApp Image 2025-03-05 at 10 58 23_a4e279f8](https://github.com/user-attachments/assets/31f8b26e-a771-4660-b299-a6e27f9effaa)         |
+|  1  |  0  |  1  |  1  |   0    |    ![WhatsApp Image 2025-03-05 at 10 58 34_c3500fc1](https://github.com/user-attachments/assets/09a4cc6e-f335-483c-a6a3-a7f3613a8b69)            |
+|  1  |  1  |  0  |  0  |   0    |       ![WhatsApp Image 2025-03-05 at 10 59 01_6d8dafd1](https://github.com/user-attachments/assets/46d45f65-d032-4f23-b380-d7b963f17ed8)         |
+|  1  |  1  |  0  |  1  |   0    |     ![WhatsApp Image 2025-03-05 at 10 59 12_f2998950](https://github.com/user-attachments/assets/a72fe792-e812-4b2c-aa53-ab0a9aa2db72)           |
+|  1  |  1  |  1  |  0  |   1    |     ![WhatsApp Image 2025-03-05 at 10 59 36_2c5f0955](https://github.com/user-attachments/assets/1c425b61-beb9-49ca-8ec9-1a6c84593c74)           |
+|  1  |  1  |  1  |  1  |   0    |     ![WhatsApp Image 2025-03-05 at 11 00 13_962dfc15](https://github.com/user-attachments/assets/2421015d-4c37-40a5-ab05-e6bcfa417416)           |
 
 
 (Ganti dengan foto sirkuit Anda!)
