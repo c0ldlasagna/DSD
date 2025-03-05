@@ -1,14 +1,6 @@
-c---
-title: Case Study - Karnaugh Map (Reg)
----
----
-
-title: Case Study - Karnaugh Map (Reg)
-
----
-
 # Case Study - Karnaugh Map
 
+```txt
 Nama : Elias Rechoum
 
 NPM : 2406354045
@@ -16,6 +8,7 @@ NPM : 2406354045
 Kelompok : A13
 
 Rekan Kerja : Altaf Farzana (2406355754)
+```
 
 ## 1. Praktikum (60 poin)
 
@@ -29,7 +22,6 @@ Zakuro berkeinginan untuk membuat rangkaian untuk mengecek kesamaan biner. Cara 
   - 0110 -> 0, bit  2 dan 3 sama, namun seharusnya bit bit 1 dan 4 berbeda
 
 ### Truth Table
-
 
 | A | B | C | D | Output |
 | - | - | - | - | ------ |
@@ -52,21 +44,18 @@ Zakuro berkeinginan untuk membuat rangkaian untuk mengecek kesamaan biner. Cara 
 
 ### Karnaugh Map
 
-
 | AB\CD  | 00 | 01 | 11 | 10 |
-| ------ | -- | -- | -- | -- |
+| :----: | :-: | :-: | :-: | :-: |
 | **00** |    |  1 |    |    |
 | **01** |    |    |  1 |    |
 | **11** |    |    |    |  1 |
-| **10** |  1 |    |    |    | 
+| **10** |  1 |    |    |    |
 
 ### Persamaan Boolean
 
 `F(A,B,C,D) = AB'C'D'+A'B'C'D+A'BCD+AB'CD'`
 
 ### Rangkaian tersebut mungkin bersifat kompleks dan memerlukan biaya yang besar. Oleh sebab itu, sederhanakan rangkaian tersebut agar menggunakan gerbang logika kompleks. Ingat bahwa pada TP, gerbang XOR dan XNOR dapat digunakan untuk pemeriksaan biner
-
-Hint: Sederhanakan mengenai Boolean Algebra, lalu konversi kebentuk XOR dan XNOR~~~~
 
 ### Persamaan Boolean Dengan Gerbang Kompleks
 
@@ -93,13 +82,37 @@ Hint: Sederhanakan mengenai Boolean Algebra, lalu konversi kebentuk XOR dan XNOR
 |  1  |  1  |  1  |  0  |   1    |     ![WhatsApp Image 2025-03-05 at 10 59 36_2c5f0955](https://github.com/user-attachments/assets/1c425b61-beb9-49ca-8ec9-1a6c84593c74)           |
 |  1  |  1  |  1  |  1  |   0    |     ![WhatsApp Image 2025-03-05 at 11 00 13_962dfc15](https://github.com/user-attachments/assets/2421015d-4c37-40a5-ab05-e6bcfa417416)           |
 
-
-(Ganti dengan foto sirkuit Anda!)
-
 ## 2. Berdasarkan yang telah anda lakukan, berikan analisa mengenai peran gerbang logika kompleks dalam praktikum anda (15 poin)
+
+Peran gerbang logka kompleks dalam praktikum ini adalah untuk meyederhanakan kompleksitas rangkaian. Jika kita merakit rangkaian ini dengan gerbang logika unviversal saja, rangkaian akan memiliki biaya yang sangat tinggi.
 
 ## 3. Bagaimana bentuk persamaan anda jika dirangkai dengan gerbang universal? Turunkan persamaannya dan jelaskan kelebihan dan kekurangan dari bentuk universal tersebut! (15 poin)
 
-### Cukup lakukan penurunan persamaan aljabar kedalam bentuk NAND atau NOR (Pilih salah satu), tidak diwajibkan, namun diperbolehkan untuk mengubah kedalam bentuk rangkaian untuk memastikan kecocokan jawaban.
+>### Cukup lakukan penurunan persamaan aljabar kedalam bentuk NAND atau NOR (Pilih salah satu), tidak diwajibkan, namun diperbolehkan untuk mengubah kedalam bentuk rangkaian untuk memastikan kecocokan jawaban.
+
+#### Persamaan dengan gerbang logika kompleks:
+
+1. `(A XOR D) AND (B XNOR C)`
+
+#### Konversi ke NOR
+
+```bash
+- X = A XOR D = (A NOR D) NOR ((A NOR A) NOR (D NOR D))
+
+- Y = B XNOR C = ( (B NOR (B NOR C) ) NOR (C NOR (B NOR C) ) )
+
+- X AND Y = ( (X NOR X) NOR (Y NOR Y) )
+
+F(A,B,C,D):
+( ((A NOR D) NOR ((A NOR A) NOR (D NOR D)) NOR (A NOR D) NOR ((A NOR A) NOR (D NOR D))) NOR (( (B NOR (B NOR C) ) NOR (C NOR (B NOR C) ) ) NOR ( (B NOR (B NOR C) ) NOR (C NOR (B NOR C) ) )) )
+```
 
 ## 4. Buatlah kesimpulan dari praktikum kali ini! (Buat dalam bentuk poin-poin!) (10 poin)
+
+Pada Praktikum hari ini, saya:
+
+- Mempelajari peran gerbang kompleks dalam mengurangi biaya sebuah rangkaian.
+
+- Mempelajari fungsi gerbang XOR dan XNOR untuk pemeriksaan bit.
+
+- Merakit sebuah rangkaian digital dengan menggunakan gerbang logika kompleks (XOR)
