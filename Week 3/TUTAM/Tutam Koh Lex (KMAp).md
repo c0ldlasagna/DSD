@@ -27,7 +27,7 @@ Berikut adalah SOM (Sum Of Minterms) dari setiap fungsi utama, karena fungsi Boo
 
 ![image](https://hackmd.io/_uploads/rym3xMxo1e.png)
 
-![KMAP 1](image.png)
+![KMAP 1](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image.png)
 
 `F1(A, B, C, D) = A'D+A'B'C'+BCD`
 
@@ -35,7 +35,7 @@ Berikut adalah SOM (Sum Of Minterms) dari setiap fungsi utama, karena fungsi Boo
 
 ![image](https://hackmd.io/_uploads/rJA3HGejyl.png)
 
-![KMAP 2](image-1.png)
+![KMAP 2](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-1.png)
 
 `F2(A, B, C, D) = C`  
 
@@ -43,14 +43,14 @@ Berikut adalah SOM (Sum Of Minterms) dari setiap fungsi utama, karena fungsi Boo
 
 ![image](https://hackmd.io/_uploads/r1-kp-xiJl.png)
 
-![alt text](image-5.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-5.png)
 
 `F3(A, B, C, D) = B`
 
 #### **KMAP 4: Faktor "Tanggung Jawab"** (5 Poin)
 f(A,B,C,D) = Σm(0,2,5,7,8,10,13,15)
 d(A,B,C,D) = Σd(1,3,4,9,11,12)
-![alt text](image-4.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-4.png)
 
 `F4(A, B, C, D) = B'+D`  
 
@@ -65,7 +65,7 @@ Fungsi logika:
 `F(F1, F2, F3, F4) = F1 F2 + F3 F4` 
 
 Setelah disederhanakan:
-![alt text](image-22.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-22.png)
 `F(A, B, C, D) = BC' + BD + A'CD` 
 
 
@@ -74,22 +74,22 @@ Setelah disederhanakan:
 
 |  A  |  B  |  C  |  D  | Output | Foto Rangkaian |
 |:---:|:---:|:---:|:---:|:------:|:--------------:|
-|  0  |  0  |  0  |  0  |   `0`  |![alt text](image-6.png)                 |
-|  0  |  0  |  0  |  1  |   `0`  |![alt text](image-7.png)                 |
-|  0  |  0  |  1  |  0  |   `0`  |![alt text](image-8.png)                 |
-|  0  |  0  |  1  |  1  |   `1`  |![alt text](image-9.png)                 |
-|  0  |  1  |  0  |  0  |   `1`  |![alt text](image-10.png)                |
-|  0  |  1  |  0  |  1  |   `1`  |![alt text](image-11.png)                |
-|  0  |  1  |  1  |  0  |   `0`  |![alt text](image-12.png)                |
-|  0  |  1  |  1  |  1  |   `1`  |![alt text](image-13.png)                |
-|  1  |  0  |  0  |  0  |   `0`  |![alt text](image-14.png)                |
-|  1  |  0  |  0  |  1  |   `0`  |![alt text](image-15.png)                |
-|  1  |  0  |  1  |  0  |   `0`  |![alt text](image-16.png)                |
-|  1  |  0  |  1  |  1  |   `0`  |![alt text](image-17.png)                |
-|  1  |  1  |  0  |  0  |   `1`  |![alt text](image-18.png)                |
-|  1  |  1  |  0  |  1  |   `1`  |![alt text](image-19.png)                |
-|  1  |  1  |  1  |  0  |   `0`  |![alt text](image-20.png)                |
-|  1  |  1  |  1  |  1  |   `1`  |![alt text](image-21.png)                |
+|  0  |  0  |  0  |  0  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-6.png)                 |
+|  0  |  0  |  0  |  1  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-7.png)                 |
+|  0  |  0  |  1  |  0  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-8.png)                 |
+|  0  |  0  |  1  |  1  |   `1`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-9.png)                 |
+|  0  |  1  |  0  |  0  |   `1`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-10.png)                |
+|  0  |  1  |  0  |  1  |   `1`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-11.png)                |
+|  0  |  1  |  1  |  0  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-12.png)                |
+|  0  |  1  |  1  |  1  |   `1`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-13.png)                |
+|  1  |  0  |  0  |  0  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-14.png)                |
+|  1  |  0  |  0  |  1  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-15.png)                |
+|  1  |  0  |  1  |  0  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-16.png)                |
+|  1  |  0  |  1  |  1  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-17.png)                |
+|  1  |  1  |  0  |  0  |   `1`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-18.png)                |
+|  1  |  1  |  0  |  1  |   `1`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-19.png)                |
+|  1  |  1  |  1  |  0  |   `0`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-20.png)                |
+|  1  |  1  |  1  |  1  |   `1`  |![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%203/TUTAM/image-21.png)                |
 
 **Link Tinkercad:** [Link](https://www.tinkercad.com/things/f2k1ShckFhe-tutam-1-elias) 
 
