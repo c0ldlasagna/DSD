@@ -1,7 +1,7 @@
 # Tugas Pendahuluan - Decoder / Encoder & Multiplexer / Demultiplexer
 ```
-Nama  : [nama Anda di sini]  
-NPM   : [NPM Anda di sini]
+Nama  : Elias Rechoum
+NPM   : 2406354045
 ```
 ## Teori (50 poin)
 
@@ -43,7 +43,7 @@ Satu kegunaan dari `Priority Encoder` adalah untuk *interrupt controller*, karen
 
 ### 4. Dengan menggunakan Proteus, buatlah sebuah rangkaian sederhana yang dapat menyalakan satu lampu LED (warna terserah kalian) menggunakan pin power,ground dan komponen switch. Jangan lupa untuk memberikan Teks berupa `Nama_NPM` pada rangkaian sesuai video tutorial yang sudah diberikan di Emas2.
 
-Screenshot Rangkaian : ![alt text](image-10.png)
+Screenshot Rangkaian : ![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%205%2B6/image-10.png)
 
 ## Rangkaian Asli (40 Poin) 
 
@@ -83,26 +83,26 @@ Truth Table
 KMAP : 
 
 ### D0
-![alt text](image-2.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%205%2B6/image-2.png)
 
 ### D1
-![alt text](image-3.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%205%2B6/image-3.png)
 
 ### D2
-![alt text](image-4.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%205%2B6/image-4.png)
 
 ### D3
-![alt text](image-5.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%205%2B6/image-5.png)
 
 Screenshot Rangkaian : 
-![alt text](image-11.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%205%2B6/image-11.png)
 
 ### 6. Buatlah satu lagi Rangkaian Custom Decoder yang mempunyai sedikit peraturan berbeda, di mana nilai/rating dari setiap kriteria sesuai dengan representasi `2^n` nya , sehingga Amal = 4 poin, Banyak berdoa = 2 poin, Cantik = 1 poin.
 
 ***Hint : Rangkaian ini tidak perlu menggunakan K-MAP, untuk output yang tidak terhubung dengan input apapun karena selalu bernilai 0 tetap biarkan saja berada di rangkaian*** 
 
 Screenshot Rangkaian : 
-![alt text](image-12.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%205%2B6/image-12.png)
 
 ### 7. Tugas terakhir Anda adalah membuat custom multiplexer menggunakan Logic Gates (Dilarang menggunakan IC Multiplexer bawaan) yang dapat meneruskan/memilih 2 jenis input, yaitu output fungsi decoder nomer 5 dan 6. Output dari multiplexer ini adalah 4 bit sesuai dengan lebar angka rating yang tadi sudah dijelaskan. Setelah membuat custom multiplexer ini, Anda harus menghubungkan outpux multiplexer tersebut ke tampilan 7 segment dengan menggunakan Decoder agar nilai/rating dapat ditampilkan agar mudah dibaca oleh Mr. Kim (Boleh menggunakan IC Bawaan seperti 7447 ,dll.)
 
@@ -110,4 +110,4 @@ Screenshot Rangkaian :
 #### Sedikit arahan: Dengan custom multiplexer yang diinstruksikan, total input yang kalian punya akan berjumlah 9 bit pada multiplexer tersebut, dengan outputnya adalah 4 bit. Input Selector dari multiplexer ini adalah 1 bit karena hanya ada 2 jenis input yang ingin dipilih, yaitu 4 bit input berupa output fungsi nomer 5 dan 4 bit input berupa output fungsi nomer 6. Dari sini, sebenarnya yang kalian buat adalah `Quadruple 2x1 Multiplexer` . Anda dapat mempelajari terkait `Quadruple 2x1 Multiplexer` dari internet untuk mencari bentuk rangkaian logika multiplexer ini sebagai jawaban nomer 7.
 
 Screenshot Rangkaian : 
-![alt text](image-13.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%205%2B6/image-13.png)
