@@ -52,26 +52,26 @@ Hint : Anda intinya diminta untuk membuat komponen demultiplexer 1 to 4
 
 #### Y1
 
-![alt text](image-21.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%205%2B6/image-21.png)
 
 `Y1 = IS0'S1`
 
 #### Y2 
 
-![alt text](image-22.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%205%2B6/image-22.png)
 
 `Y2 = IS0S1'`
 
 
 #### Y3
 
-![alt text](image-23.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%205%2B6/image-23.png)
 
 `Y3 = IS0S1`
 
 ### 3. Buat rangkaiannya berdasarkan KMAP yang kalian peroleh dengan outputnya adalah LED (4 Buah LED)
 
-![alt text](<WhatsApp Image 2025-03-12 at 11.37.10_6e81d568.jpg>)
+![alt text](<https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%205%2B6/WhatsApp Image 2025-03-12 at 11.37.10_6e81d568.jpg>)
 
 ### *Jika Anda telah menyelesaikan rangkaian demultiplexer hingga nomor 3 dan waktu praktikum sudah habis, Anda dapat melanjutkan pengerjaan nomor 4 di Proteus.
 
@@ -106,18 +106,18 @@ Note extra, pin D dari decoder 7447/7448 dapat dihubungkan ke Ground karena tida
 
 #### KMAP
 
-![alt text](image-17.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%205%2B6/image-17.png)
 
 `C = Y3`
 
-![alt text](image-18.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%205%2B6/image-18.png)
 
 `B = Y2+Y1`
 
-![alt text](image-19.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%205%2B6/image-19.png)
 `A = Y0+Y2`
 
-![alt text](image-16.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/master/Week%205%2B6/image-16.png)
 
 ## Analisis & Teori (40 Poin)
 
