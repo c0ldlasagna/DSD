@@ -153,6 +153,6 @@ Langkah 1: Ambil 2's complement dari bit B1 dengan membalikkan bit B1 dan menamb
 Langkah 2: Full subtractor kedua menggunakan C1 untuk ditambahkan dengan A2 dan 2's complement dari B2 untuk menghasilkan bit selisih kedua (S2) dan carry bit C2.
 
 **Screenshot:**  
-![alt text](image.png)
+[![alt text](image.png)](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%207/image.png)
 
 **TIDAK PERLU REFERENSI**
