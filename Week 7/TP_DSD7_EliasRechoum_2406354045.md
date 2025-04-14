@@ -27,7 +27,7 @@ NPM   : 2406354045
   - *Borrow* adalah bit yang dipinjam dari digit berikutnya dalam operasi pengurangan jika bit pengurang lebih besar dari bit yang dikurangi.
 
 ### Referensi:  
-- Example Website [Online]. Tersedia: https://www.myWebsite.com/ilovedigilab/. [Diakses: 25-Aug-2024]
+- “Digital Electronics Tutorial,” Tutorialspoint.com, 2021. https://www.tutorialspoint.com/digital-electronics/ (accessed Apr. 14, 2025).
 
 ---
 
@@ -42,23 +42,31 @@ NPM   : 2406354045
 
 
 ### Referensi:  
-- Example Website [Online]. Tersedia: https://www.myWebsite.com/ilovedigilab/. [Diakses: 25-Aug-2024]
+- “Digital Electronics Tutorial,” Tutorialspoint.com, 2021. https://www.tutorialspoint.com/digital-electronics/ (accessed Apr. 14, 2025).
 
 ---
 
 ### 3. Jelaskan apa yang dimaksud dengan ripple carry adder dan ripple borrow adder serta use case dan pembentukannya  (15 poin)
 
-- **Ripple Carry Adder** adalah susunan beberapa full adder yang dihubungkan secara berantai. Carry dari setiap bit akan *ripple* ke full adder selanjutnya. Digunakan untuk penjumlahan bilangan biner lebih dari 1 bit.  
-  - **Use Case**: Digunakan dalam prosesor untuk penjumlahan bilangan 4-bit, 8-bit, dsb.  
-  - **Pembentukan**: Disusun dari beberapa full adder. Output carry dari FA ke-n menjadi input carry untuk FA ke-(n+1).
+Ripple Carry Adder adalah susunan beberapa full adder yang dihubungkan secara berantai. Carry dari setiap bit akan ripple ke full adder selanjutnya. Digunakan untuk penjumlahan bilangan biner lebih dari 1 bit.
 
-- **Ripple Borrow Subtractor** bekerja mirip dengan ripple carry adder, tetapi digunakan untuk pengurangan dan menggunakan sinyal borrow alih-alih carry.  
-  - **Use Case**: Digunakan untuk pengurangan biner multi-bit.  
-  - **Pembentukan**: Disusun dari beberapa full subtractor. Borrow dari satu blok akan diteruskan ke blok berikutnya.
+- Use Case: Digunakan dalam prosesor untuk penjumlahan bilangan 4-bit, 8-bit, dsb.
+
+- Pembentukan: Disusun dari beberapa full adder. Output carry dari FA ke-n menjadi input carry untuk FA ke-(n+1).
+
+Ripple Borrow Subtractor adalah rangkaian yang digunakan untuk melakukan pengurangan biner multi-bit. Secara tradisional, dapat dibentuk dari beberapa full subtractor yang dihubungkan secara berantai, di mana sinyal borrow dari satu blok diteruskan ke blok berikutnya. Namun, secara umum juga bisa dibuat menggunakan full adder dengan pendekatan komplemen dua (2's complement), yaitu dengan menginvers bit-bit bilangan pengurang dan menambahkan 1.
+
+- Use Case: Digunakan dalam ALU atau sistem digital lain yang memerlukan pengurangan bilangan biner.
+
+- Pembentukan:
+
+  - Metode 1 (Full Subtractor): Disusun dari beberapa full subtractor yang mengoperasikan setiap bit dan meneruskan borrow.
+
+  - Metode 2 (Full Adder + 2’s Complement): Invers bit-bit operand B, tambahkan 1 (membentuk komplemen dua), lalu gunakan ripple carry adder untuk menjumlahkan dengan operand A.
 
 
 ### Referensi:  
-- Example Website [Online]. Tersedia: https://www.myWebsite.com/ilovedigilab/. [Diakses: 25-Aug-2024]
+- “Digital Electronics Tutorial,” Tutorialspoint.com, 2021. https://www.tutorialspoint.com/digital-electronics/ (accessed Apr. 14, 2025).
 
 ---
 
@@ -75,7 +83,7 @@ NPM   : 2406354045
 
 
 ### Referensi:  
-- Example Website [Online]. Tersedia: https://www.myWebsite.com/ilovedigilab/. [Diakses: 25-Aug-2024]
+- “Signed Binary Numbers and Two’s Complement used in Binary,” Basic Electronics Tutorials, Aug. 20, 2018. https://www.electronics-tutorials.ws/binary/signed-binary-numbers.html
 
 ---
 
@@ -114,19 +122,21 @@ Hasilnya adalah 60, dengan tanda positif, jadi hasil akhirnya adalah 60.
 
 2’s Complement:
 
-    45 dalam 2's complement (8-bit): 11010011
+- 45 dalam 2's complement (8-bit): `11010011`
 
-    105 dalam biner: 01101001
+105 dalam biner: `01101001` 
 
-    105 - 45 menggunakan 2's complement menghasilkan: 00111100
+```
+  01101001   (105)
++ 11010011   (-45)
+-----------
+  00111100   (Hasil: 60)
+```
 
-    Hasil akhir: 60
-**Sertakan langkah pengerjaan anda**
-
-[your answer here]
+Hasil akhir: 60
 
 ### Referensi:  
-- Example Website [Online]. Tersedia: https://www.myWebsite.com/ilovedigilab/. [Diakses: 25-Aug-2024]
+- “Signed Binary Numbers and Two’s Complement used in Binary,” Basic Electronics Tutorials, Aug. 20, 2018. https://www.electronics-tutorials.ws/binary/signed-binary-numbers.html
 
 ---
 
@@ -136,7 +146,13 @@ Sertakan screenshot dari proteus dengan mencantumkan nama dan NPM anda pada Rang
 
 **Jelaskan Secara ringkas cara kerja dari rangkaian yang telah anda buat**
 
+2 bit ripple borrow subtractor menggunakan 2 Full Adder dengan mengambil 2s complement dari input B untuk menghasilkan output A+(~B). Cin pertama harus 1 untuk dapat 2s complement dari bit B pertama.
+
+Langkah 1: Ambil 2's complement dari bit B1 dengan membalikkan bit B1 dan menambahkan 1. Tambahkan 2's complement dari B1 ini dengan A1. Hasilnya adalah bit pertama dari selisih (S1) dan carry bit (C1) yang akan diteruskan ke input carry pada langkah berikutnya.
+
+Langkah 2: Full subtractor kedua menggunakan C1 untuk ditambahkan dengan A2 dan 2's complement dari B2 untuk menghasilkan bit selisih kedua (S2) dan carry bit C2.
+
 **Screenshot:**  
-[your answer here]
+![alt text](image.png)
 
 **TIDAK PERLU REFERENSI**
