@@ -6,8 +6,8 @@ title: Case Study - Rangkaian Aritmatika
 # Case Study - Rangkaian Aritmatika
 
 ```
-Nama  : KAF [nama Anda di sini]  
-NPM   : [NPM Anda di sini]
+Nama  : Elias Rechoum
+NPM   : 2406354045
 ```
 ## Preambule
 
@@ -148,7 +148,7 @@ Carry In (C0) menerima bit carry awal dari tahap penjumlahan sebelumnya, sedangk
 ### 6. Hubungkan pin C0 dengan VCC / GND sehingga hasilnya sesuai yang diinginkan.
 ### 7. Pastikan output sudah sesuai. Anda dapat menggunakan contoh 5-7 di awal atau contoh lainnya untuk memastikan output rangkaian sudah benar. Bila dipastikan benar, screenshot rangkaian anda.
 
-![alt text](image-2.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%207/image-2.png)
 
 ## Analisis
 
@@ -157,7 +157,7 @@ Carry In (C0) menerima bit carry awal dari tahap penjumlahan sebelumnya, sedangk
 >    Foto Fisik: 
 
 >    Screenshot Proteus:
-![alt text](image-1.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%207/image-1.png)
 
 ### Analisis Rangkaian:
 
