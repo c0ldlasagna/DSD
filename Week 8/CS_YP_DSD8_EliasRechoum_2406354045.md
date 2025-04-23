@@ -41,9 +41,9 @@ Latch dan flip-flop memainkan peran penting dalam sistem ini:
 
 ***Buatlah rangkaian asli dari instruksi yang diberikan dan Sertakan foto sekaligus beberapa contoh kondisi input dan output rangkaian! (Minimal 2)***
 
-![alt text](<WhatsApp Image 2025-04-23 at 11.38.11_c5c4252b.jpg>)
+![alt text](<https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%208/WhatsApp Image 2025-04-23 at 11.38.11_c5c4252b.jpg>)
 
-![alt text](<WhatsApp Image 2025-04-23 at 11.38.14_0453ae20.jpg>)
+![alt text](<https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%208/WhatsApp Image 2025-04-23 at 11.38.14_0453ae20.jpg>)
 
 
 
