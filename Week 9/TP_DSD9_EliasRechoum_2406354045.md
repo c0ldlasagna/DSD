@@ -55,7 +55,7 @@ Dengan SYARAT :
 1. Bikin Video Jelasin bagaimana cara kalian merangkainya + demo di proteus. 
 2. Kasih juga state table dan KMAP Lengkap
 
-**Kasih Link Yutub kalian di sini :** <https://youtu.be/u_7XTxhgSUo>
+**Kasih Link Yutub kalian di sini :** <https://youtu.be/RB7msII9mMU>
 
 **Terkait KMAP, Screenshot , atau state table,dll. taro saja di bawah sini**
 
