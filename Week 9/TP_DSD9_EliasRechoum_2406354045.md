@@ -59,6 +59,6 @@ Dengan SYARAT :
 
 **Terkait KMAP, Screenshot , atau state table,dll. taro saja di bawah sini**
 
-![alt text](image-1.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-1.png)
 
-![alt text](image.png)
+![alt text]([image.png](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image.png))
