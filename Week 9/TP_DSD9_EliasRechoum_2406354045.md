@@ -61,4 +61,4 @@ Dengan SYARAT :
 
 ![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-1.png)
 
-![alt text]([image.png](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image.png))
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image.png)
