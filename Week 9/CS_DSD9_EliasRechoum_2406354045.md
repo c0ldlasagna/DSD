@@ -77,23 +77,23 @@ Selain itu, terdapat gerbang NOR 3-input (U4) yang digunakan untuk mendeteksi ko
 
 Jawaban : Asynchronous down counter adalah counter yang menghitung mundur (misalnya dari 7 ke 0 dalam sistem 3-bit). Disebut asynchronous karena tidak semua flip-flop dikendalikan oleh clock yang sama — hanya flip-flop pertama yang menerima sinyal clock langsung, sementara flip-flop berikutnya dipicu oleh output dari flip-flop sebelumnya.
 
-Untuk membuatnya menghitung mundur, perbedaan utamanya terletak pada bagaimana clock antar flip-flop dihubungkan. Pada counter up, biasanya output Q dari flip-flop sebelumnya digunakan sebagai clock untuk flip-flop berikutnya. Namun, pada counter down, yang digunakan adalah output Q̅. Ini karena ketika Q̅ berubah dari 1 ke 0, itu menandai bahwa nilai telah berkurang, sehingga flip-flop berikutnya ikut menghitung turun.
+Untuk membuatnya menghitung mundur, perbedaan utamanya terletak pada bagaimana clock antar flip-flop dihubungkan. Pada counter up, biasanya output Q dari flip-flop digunakan untuk merepresentasi bit yang dihitung. Namun, pada counter down, yang digunakan adalah output Q̅. Ini karena ketika Q̅ berubah dari 1 ke 0, dan membuat counternya menurun.
 
 Contohnya, misalnya kita mulai dari 111 (dalam 3-bit):
 
 1. Flip-flop pertama (LSB) akan mendapatkan pulsa clock langsung dan akan mengubah status dari 1 ke 0.
 
-2. Perubahan dari Q̅ (dari 0 ke 1) kemudian memicu flip-flop kedua (bit tengah), dan proses ini berlanjut.
+2. Perubahan dari Q (dari 0 ke 1) kemudian memicu flip-flop kedua (bit tengah), dan proses ini berlanjut.
 
 Siklus ini berlanjut sampai mencapai 000, dan kemudian kembali ke 111, membentuk siklus mundur.
 
-Dengan mengatur J dan K dari setiap flip-flop ke logika tinggi (1), kita memastikan flip-flop bekerja dalam mode toggle, yaitu akan berganti keadaan setiap kali mendapat pulsa clock.
+Dengan mengatur J dan K dari setiap flip-flop ke logika tinggi (1), kita memastikan flip-flop bekerja dalam mode toggle, yaitu akan berganti keadaan setiap kali mendapat pulse clock.
 
 <div style="background-color:#F0F8FF; padding:15px; border-radius:10px; margin-bottom:15px;">
 <h3 style="color:#3366CC;">3. Jika kita ingin mengubah rangkaian down counter ini menjadi up counter, apa saja yang harus dimodifikasi? (10 poin) 📈</h3>
 </div>
 
-Jawaban : Untuk mengubah rangkaian asynchronous down counter menjadi up counter, hal utama yang perlu dimodifikasi adalah koneksi clock pada masing-masing flip-flop. Dalam rangkaian down counter, output Q̅ dari flip-flop digunakan sebagai input clock untuk flip-flop berikutnya. Namun, untuk mengubahnya menjadi up counter, clock pada flip-flop kedua dan ketiga harus dihubungkan ke output Q dari flip-flop sebelumnya. Artinya, clock input pada flip-flop kedua harus berasal dari Q dari flip-flop pertama, dan clock input pada flip-flop ketiga harus berasal dari Q dari flip-flop kedua.
+Jawaban : Untuk mengubah rangkaian asynchronous down counter menjadi up counter, hal utama yang perlu dimodifikasi adalah koneksi output pada masing-masing flip-flop. Dalam rangkaian down counter, output Q̅ dari flip-flop digunakan sebagai output.  Namun, untuk mengubahnya menjadi up counter, output untuk bit buat hitung harus diganti ke Q, supaya counter mulai pada state 000.
 
 <div style="background-color:#F0F8FF; padding:15px; border-radius:10px; margin-bottom:15px;">
 <h3 style="color:#3366CC;">4. Berikanlah kesimpulan terhadap seluruh rangkaian praktikum modul 9 ini (10 poin) 📝</h3>
@@ -107,11 +107,11 @@ Jawaban : Untuk mengubah rangkaian asynchronous down counter menjadi up counter,
 
 - Sebuah gerbang NOR digunakan untuk mendeteksi kondisi tertentu, seperti 000, dan menyalakan LED sebagai indikator bahwa counter telah mencapai nilai akhir.
 
-- Arah perhitungan ditentukan oleh sumber clock pada masing-masing flip-flop:
+- Arah perhitungan ditentukan oleh bit output pada flip-flop:
 
-  - Down counter menggunakan output Q̅ sebagai clock flip-flop berikutnya.
+  - Down counter menggunakan output Q̅ sebagai bit output.
 
-  - Untuk mengubahnya menjadi up counter, cukup mengganti koneksi clock ke output Q.
+  - Untuk mengubahnya menjadi up counter, cukup mengganti koneksi output ke Q.
 
 - Semua flip-flop diatur agar input J dan K selalu HIGH (1), sehingga beroperasi dalam mode toggle.
 
