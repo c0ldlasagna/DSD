@@ -77,11 +77,11 @@ Selain itu, terdapat gerbang NOR 3-input (U4) yang digunakan untuk mendeteksi ko
 
 Jawaban : Asynchronous down counter adalah counter yang menghitung mundur (misalnya dari 7 ke 0 dalam sistem 3-bit). Disebut asynchronous karena tidak semua flip-flop dikendalikan oleh clock yang sama — hanya flip-flop pertama yang menerima sinyal clock langsung, sementara flip-flop berikutnya dipicu oleh output dari flip-flop sebelumnya.
 
-Untuk membuatnya menghitung mundur, perbedaan utamanya terletak pada bagaimana clock antar flip-flop dihubungkan. Pada counter up, biasanya output Q dari flip-flop digunakan untuk merepresentasi bit yang dihitung. Namun, pada counter down, yang digunakan adalah output Q̅. Ini karena ketika Q̅ berubah dari 1 ke 0, dan membuat counternya menurun.
+Untuk membuatnya menghitung mundur, perbedaan utamanya terletak pada bagaimana clock antar flip-flop dihubungkan. Pada counter up, biasanya output Q dari flip-flop digunakan untuk merepresentasi bit yang dihitung. Namun, pada counter down, yang digunakan adalah output Q̅.
 
 Contohnya, misalnya kita mulai dari 111 (dalam 3-bit):
 
-1. Flip-flop pertama (LSB) akan mendapatkan pulsa clock langsung dan akan mengubah status dari 1 ke 0.
+1. Flip-flop pertama (LSB) akan mendapatkan pulsa clock langsung dan akan mengubah status Q̅ dari 1 ke 0.
 
 2. Perubahan dari Q (dari 0 ke 1) kemudian memicu flip-flop kedua (bit tengah), dan proses ini berlanjut.
 
