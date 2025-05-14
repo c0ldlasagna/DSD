@@ -105,22 +105,30 @@ Maka, hasil di adder sederhana akan menunjukkan 12.
 
 ### 1. Screenshot rangkaian **keypad** Anda!
 
-![alt text](image-2.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-2.png)
 
 ### 2. Screenshot **adder dan kalkulator 2 digit** Anda!
 
-![alt text](image-3.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-3.png)
 
 ### 3. Screenshot hasil 7-seg Anda dan tunjukkan fungsionalitas sirkuit Anda! (3 foto memasukkan angka, 1 foto hasil penjumlahan, dan 1 foto saat direset)
 
-![alt text](image-4.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-4.png)
 
-![alt text](image-8.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-8.png)
 
-![alt text](image-9.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-9.png)
 
-![alt text](image-11.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-11.png)
 
-![alt text](image-10.png)
+![alt text](https://raw.githubusercontent.com/c0ldlasagna/DSD/refs/heads/master/Week%209/image-10.png)
 
 ### 4. Berikan kesan dan pesan selama praktikum DSD di DigiLab, minimal 2 Paragraf! (10 poin)
+
+Kesan:
+Selama mengikuti praktikum Dasar Sistem Digital di DigiLab, pengalaman saya secara keseluruhan sangat baik. Saya merasa praktikum ini memberikan tantangan yang seru dan bermanfaat, terutama melalui tugas-tugas yang memaksa saya untuk berpikir logis dan memahami konsep digital secara lebih mendalam. Salah satu momen favorit saya adalah ketika ada modul praktikum dengan soal bernilai 100 poin, sehingga saya bisa skip teori—karena jujur saja, saya kurang suka bagian teori dan lebih menikmati praktik langsung.
+
+Pesan:
+Meskipun praktikumnya menyenangkan dan menantang, saya merasa ada beberapa hal yang bisa diperbaiki. Tenggat waktu kadang terasa kurang fleksibel dan agak merepotkan. Akan lebih baik jika deadline lebih realistis, mengingat mahasiswa juga punya tugas dari mata kuliah lain. Secara keseluruhan, saya sangat menghargai usaha asisten dan tim pengajar dalam menyusun modul yang menarik dan menantang. Terima kasih untuk pengalaman belajarnya!
+
+
